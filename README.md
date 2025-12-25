@@ -1,33 +1,16 @@
-# _task_Manager_app_CVL3T1
-A responsive Task Manager web application developed with React, Vite, and Tailwind CSS, enabling users to add, update, and manage tasks efficiently. This project demonstrates practical implementation of component-based architecture and modern frontend development practices.
-# 📝 Task Manager App
+# React + Vite
 
-A modern and user-friendly **Task Manager application** built using **React** and **Vite**, designed to help users efficiently create, manage, and organize their daily tasks. This project focuses on clean UI, smooth performance, and scalable frontend architecture.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- ➕ Add new tasks easily  
-- ✏️ Edit existing tasks  
-- ❌ Delete tasks  
-- 📌 Organize and track tasks efficiently  
-- ⚡ Fast performance with Vite  
-- 🎨 Clean and responsive UI using Tailwind CSS  
-- 🔐 Firebase integration for backend services (optional/auth-ready)
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Tech Stack
+## Expanding the ESLint configuration
 
-- **Frontend:** React, JavaScript  
-- **Build Tool:** Vite  
-- **Styling:** Tailwind CSS  
-- **Backend / Services:** Firebase  
-- **Icons:** Lucide React  
-- **Linting:** ESLint  
-
----
-
-## 📂 Project Structure
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
